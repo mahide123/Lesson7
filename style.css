@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    background-color: grey;
+}
+
+div:nth-child(2) {
+    border: 1px solid blue;
+}
+
+p {
+    background-color: red;
+    border: 1px solid red;
+    width: 50%;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+}
