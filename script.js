@@ -1,5 +1,9 @@
+const remove = (elem) => {
+    elem.style.transform = 'translateX(-9999px)';
+}
+
 
 btn.onclick = function() {
-    text.innerHTML = '';
+    remove(text);
     alert(`Now You Don't`);
-} 
+}
